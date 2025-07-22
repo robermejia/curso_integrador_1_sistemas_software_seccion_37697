@@ -5,16 +5,46 @@
 <img src="https://i.ibb.co/VjJkQwz/Captura-de-pantalla-2025-01-07-154518.png" style="width: 100% ; aspect-ratio:16/9">
 </center>
 
-## Grabaciones
-### S01.s1 - Lean Canvas: - ¿Qué es Lean Canvas? -Componentes -Ejemplos prácticos
-[![YouTube Video](https://img.youtube.com/vi/xXjK_tgiNDQ/1.jpg)](https://www.youtube.com/watch?v=xXjK_tgiNDQ)
-### S01.s2 - Lean Canvas: -Taller de uso de LeanCanvas
-[![YouTube Video](https://img.youtube.com/vi/eeTSXzW4sTU/1.jpg)](https://www.youtube.com/watch?v=eeTSXzW4sTU)
-### S02.s1 - Planificación con PMBOK
-[![YouTube Video](https://img.youtube.com/vi/nMB4vJ3tqjg/1.jpg)](https://www.youtube.com/watch?v=nMB4vJ3tqjg)
-### S02.s2 - Docente se enfermo
-[![YouTube Video](https://img.youtube.com/vi/Vb6WGDajgDw/1.jpg)](https://www.youtube.com/watch?v=Vb6WGDajgDw)
-### S03.s1 - Toma de Requerimientos - parte 1
-[![YouTube Video](https://img.youtube.com/vi/LaDKUwsrE8g/1.jpg)](https://www.youtube.com/watch?v=LaDKUwsrE8g)
-### S03.s2 - Toma de Requerimientos - parte 2
-[![YouTube Video](https://img.youtube.com/vi/Tckbfx5G8S4/1.jpg)](https://www.youtube.com/watch?v=Tckbfx5G8S4)
+# Sistema de Gestión de Ventas UTP Technology
+
+Este es un proyecto full stack desarrollado con **Spring Boot** en el backend, **Angular 20** en el frontend y **MySQL** como base de datos. El sistema permite gestionar productos, clientes, usuarios, pedidos y comprobantes.
+
+## 📌 Tecnologías utilizadas
+
+- **Frontend:** Angular 20, TypeScript,
+- **Backend:** Spring Boot, Spring Data JPA, Spring Security, JWT
+- **Base de datos:** MySQL
+- **Otros:** REST API, Maven
+
+## 🧩 Estructura de la base de datos
+
+La base de datos `utp_bd` contiene las siguientes tablas:
+
+- `rol`: Roles de usuario (Administrador, Vendedor, Cliente)
+- `usuarios`: Usuarios con clave encriptada
+- `clientes`: Información de clientes vinculados a usuarios
+- `productos`: Lista de productos con imagen, precio y stock
+- `pedidos`: Registra compras realizadas
+- `detalles_pedido`: Detalles de cada producto dentro de un pedido
+- `comprobantes`: Documento generado por cada pedido (boleta/factura)
+
+> El script `ScriptUtpTechnology.sql` crea e inserta datos de prueba automáticamente.
+
+## 🚀 Cómo ejecutar el proyecto
+
+### 1. Base de datos
+
+- Crear una base de datos MySQL ejecutando el script:
+
+
+ScriptUtpTechnology.sql
+
+
+<center>
+<img src="https://img001.prntscr.com/file/img001/wiUNYs6QSBGwD0eriFXKxg.png" style="width: 100% ; aspect-ratio:16/9">
+</center>
+
+
+### 2. Despliegue
+- http://137.184.30.74:8081/
+- http://137.184.30.74:8080/swagger-ui/index.html
