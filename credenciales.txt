@@ -1,5 +1,7 @@
-admin@tienda.com
-123456
+===== ADMINISTRADOR =====
+correo: admin@tienda.com
+password: 123456
 
-soporte@tienda.com
-123456
+==== CLIENTE ====
+correo: soporte@tienda.com
+password: 123456
